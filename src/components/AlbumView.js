@@ -2,10 +2,6 @@ import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 
-
-
-
-
 function AlbumView() {
     const { id } = useParams()
     const [albumData, setAlbumData] = useState([])
